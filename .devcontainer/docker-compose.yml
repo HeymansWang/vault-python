@@ -9,6 +9,10 @@ services:
     volumes:
       - ..:/workspaces:cached
     command: sleep infinity
+    environment:
+      - DEBUG=True
+      - TIME_ZONE=Asia/Shanghai
+      - MYSQL_HOST=mariadb
     env_file:
       - .env
 
