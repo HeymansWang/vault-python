@@ -1,0 +1,18 @@
+{
+	"name": "Python 3",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "devcontainers",
+	"workspaceFolder": "/workspaces",
+	"remoteUser": "vscode",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"Codeium.codeium",
+				"ms-python.python",
+				"ms-python.debugpy",
+				"ms-python.vscode-pylance",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
+}
